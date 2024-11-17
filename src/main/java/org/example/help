@@ -1,0 +1,13 @@
+
+
+ - TO turn on ac there can be many set of methods which can be cumbersome without command pattern
+
+ - Always if commands are there undo/redo should be there
+
+ - If we need to add other operations also client will be impacted, like adding turn on bulb
+
+ - There is one invoker which client calls.
+
+ - client, invoker, command, receiver
+
+ - if some command changes only particular command will gets changed
